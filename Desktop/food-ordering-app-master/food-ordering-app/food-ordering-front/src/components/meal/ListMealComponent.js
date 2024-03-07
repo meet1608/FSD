@@ -64,8 +64,8 @@ const ListMealComponent = () => {
         meal.setName('');
         meal.setPrice('');
         meal.setDescription('');
-        // meal.setMealType(meals[0].mealType);
-         meal.setMealType({id: 1, typeName: 'PIZZA'});
+        meal.setMealType(meals[0].mealType);
+        // meal.setMealType({id: 1, typeName: 'PIZZA'});
         }
 
     const handleCloseEdit = () => {

@@ -25,7 +25,7 @@ import com.google.gson.Gson;
 import antlr.StringUtils;
 @CrossOrigin("*")
 @RestController
-@RequestMapping(value = "api/meal")
+@RequestMapping(value = "api/meal")      // http://localhost:8080/api/meal/getAllMeals
 public class MealController {
 	
 	@Autowired
