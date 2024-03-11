@@ -2,7 +2,6 @@ import axios from "axios";
 import TokenService from "./TokenService";
 
 class MealTypeService{
-    const a;
     getAllMealTypes(){
         return axios.get("http://localhost:8088/api/mealType/getAllMealTypes");
     }
