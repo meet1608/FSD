@@ -5,25 +5,25 @@ The main purpose of the application is to enable users to view restaurant menu, 
 - EMPLOYEE
 - USER
 
-The application can also be accessed by unregistered users, who have the following abilities:
+without login you can use the following abilities:
 - Register an account
 - Browse the menu, select a type of the meal, and view the complete offerings within that type
 - Specify quantities and then add items to the cart
 - Confirm the final order by inserting their address and phone number
 - After successfully placing the final order, users will receive a message containing a link to track the status of their order
 
-Registered users with the *USER* role can log into the system using their username and password. They have the following abilities:
+*USER* can do  the following things after logging in:
 - Update their personal information
 - Order food similar to unregistered users, but without the need to enter their address and phone number since their data is already saved in the database.
 - Receive a 10% discount on every order
 - View their active orders (with *ORDERED* and *IN PREPARATION* status)
 - View the history of their orders (with *IN DELIVERY* status)
 
-Users with the *EMPLOYEE* role have the following abilities:
+*EMPLOYEE* can do  the following things after logging in:
 - Review all incoming orders and change their status to *IN PREPARATION* or *IN DELIVERY*, depending on whether the orders are being prepared or in the process of delivery.
 - View the history of all orders.
 
-Users with the *ADMIN* role have the following abilities:
+*ADMIN* can do  the following things after logging in:
 - Create, delete (logically) and update meal types in the database (including uploading images)
 - Create, delete (logically) and update meals (including uploading images)
 - Logically delete users (change their isDeleted status, their data remains in the database)
@@ -64,9 +64,6 @@ Validation if inserted phone number is a number or it has less than 5 digits
 
 
 After valid input, final order will be confirmed and not logged-in users can track their order status clicking on the link.
-
-
-
 Clicking on *Show items* button, user can see all items from the (final) order that he ordered.
 
 
