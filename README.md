@@ -7,7 +7,6 @@ Project is implemented using ReactJS (Hooks) library and Java Spring Boot framew
 This is second commit
 ### Project specification
 
-hi guys
 
 
 The main purpose of the application is to enable users to view restaurant menu, place food orders, then track the status of their orders, which can be updated by employees. The system consists of three user roles with specific capabilities:
