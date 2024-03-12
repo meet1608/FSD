@@ -4,7 +4,7 @@ This project was initiated during my bachelor's studies. Even though I've finish
 
 Project is implemented using ReactJS (Hooks) library and Java Spring Boot framework (Hibernate, Spring Secuirty with JSON Web token, REST API) with some additional libraries (Bootstrap, AXIOS, Sweetalert, Redux and few more).
 
-This is second commit
+This is nine th commit
 ### Project specification
 
 
