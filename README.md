@@ -116,7 +116,7 @@ Registration (unregistered users can sign up and they will have 10% off on every
 Validation and alert if username already exists in the database.
 
 
-Validation and alert if email already exists in the database
+Validation and alert if email already exists in the database.
 
 
 Registration design for mobile screen size
